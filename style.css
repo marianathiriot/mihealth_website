@@ -1,0 +1,36 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #c9c9c9;
+}
+header {
+    height: 100px;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 80px;
+
+}
+
+.logo {
+    justify-content: space-between;
+    padding: 0;
+    
+}
+
+.logo1 {
+    color: rgb(237, 21, 13);
+
+}
+.logo2 {
+    color: rgb(137, 212, 56);
+
+
+}
