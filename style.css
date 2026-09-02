@@ -35,16 +35,16 @@ header {
 
 .logo1 {
     color: rgb(237, 21, 13);
-    font-family: "Titan One";
+    font-family: sans-serif;
     font-size: 30px;
-    font-weight: bold;
+    font-weight: 1000px;
     transform:scaleY(1.2)   
 }
 .logo2 {
-    color: rgb(137, 212, 56);
-    font-family: "Titan One";
+    color: #8BC51F;
+    font-family: sans-serif;
     font-size: 30px;
-    font-weight: bold; 
+    font-weight: 1000px;   
     transform:scaleY(1.2)   
 }
 
@@ -53,10 +53,17 @@ nav {
     gap: 50px;
     font-color: black;
 }
+
+ul {
+    display: flex;
+    gap: 40px;
+    list-style: none;
+}
 nav a {
     text-decoration: none;
     color: #222;
     font-size: 18px;
+    font-family: sans-serif;
 }
 
 main {
@@ -76,6 +83,61 @@ section {
     gap: 10px;
 }
 img {
-    width: 275px;
-    height: 400px;
+    width: 240px;
+    height: 350px;
+
+}
+
+.tag {
+    position: relative;
+    width: 240px;
+    height: 350px;
+    object-fit: cover;
+}
+
+.tag-white {
+    position: absolute;
+    background-color: white;
+    font-color: black;
+    right: 0;
+    bottom: 31px;
+    padding: 5px 10px;
+    transform: uppercase;
+
+}
+
+.tag-green {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    background-color: #8BC51F;
+    font-color: black;
+    padding: 5px 10px;
+    transform: uppercase;
+
+}
+
+
+article {
+    height: 350px;
+}
+
+article h1 {
+    font-size: 35px;
+    color: #202124;
+    margin-bottom: 20px;
+
+    
+
+}
+
+article p {
+    font-size: 15px;
+    margin-bottom: 20px;
+    font-family: sans-serif, Helvetica, poppins normal;
+    
+}
+
+article h3 {
+    text-transform: uppercase;
 }
