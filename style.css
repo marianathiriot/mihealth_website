@@ -51,7 +51,7 @@ header {
 nav {
     display: flex;
     gap: 50px;
-    font-color: black;
+    color: black;
 }
 
 ul {
@@ -98,11 +98,11 @@ img {
 .tag-white {
     position: absolute;
     background-color: white;
-    font-color: black;
+    color: black;
     right: 0;
     bottom: 31px;
     padding: 5px 10px;
-    transform: uppercase;
+    text-transform: uppercase;
 
 }
 
@@ -110,10 +110,13 @@ img {
     position: absolute;
     right: 0;
     bottom: 0;
+    width: 160px;
     background-color: #8BC51F;
-    font-color: black;
+    color: black;
     padding: 5px 10px;
-    transform: uppercase;
+    text-transform: uppercase;
+    text-align: right;
+
 
 }
 
